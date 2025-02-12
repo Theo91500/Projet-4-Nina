@@ -251,6 +251,11 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.nav-item{
+	cursor: pointer !important;
+	user-select: none;
+}
+
 .active-tag {
 	background-color: #a60cff !important;
 } 
