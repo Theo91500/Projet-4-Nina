@@ -79,7 +79,6 @@ body {
 .picture img {
 	width: 100%;
 	height: auto;
-
 }
 
 .visually-hidden{
@@ -115,11 +114,7 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #a60cff;
-	border-radius:0 ;
-}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -255,6 +250,10 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+.active-tag {
+	background-color: #a60cff !important;
+} 
 
 @media all and (max-width: 1180px) {
 	.picture {
