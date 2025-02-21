@@ -121,6 +121,8 @@
     },
     prevImage() {
       let activeImage = null;
+      console.log('test');
+      
       $("img.gallery-item").each(function() {
         if ($(this).attr("src") === $(".lightboxImage").attr("src")) {
           activeImage = $(this);
