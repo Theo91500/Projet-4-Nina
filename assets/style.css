@@ -10,10 +10,10 @@ body {
 .top-header {
 	background-color: white;
 	position: sticky;
+	width: 1921px;
 	top:0;
 	z-index: 1000;
-	padding-inline: 100px;
-	padding-block: 30px;
+	padding: 30px 100px;
 }
 
 .nav{
@@ -28,6 +28,8 @@ body {
 
 .nav ul {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
@@ -257,8 +259,20 @@ input[type="submit"] {
 }
 
 .active-tag {
-	background-color: #a60cff !important;
+	background-color: #BEB45A !important;
 } 
+
+.modal-content{
+	width: 500px;
+}
+
+.modal-body{
+	width: 100%;
+}
+
+.img-fluid{
+	width: 100%;
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -334,6 +348,7 @@ input[type="submit"] {
 		z-index: -1;
 	}
 }
+
 
 @media all and (max-width: 650px) {
 	.top-header {
